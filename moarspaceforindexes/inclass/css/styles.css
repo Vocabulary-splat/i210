@@ -1,0 +1,36 @@
+header {
+  text-align: center;
+  width: 800px;
+  margin: 0 auto;
+  height: 100px;
+  background-color: beige;
+}
+header a {
+  text-decoration: none;
+  color: blue;
+}
+header a {
+  padding: 10px;
+}
+footer {
+  margin-top: 100px;
+  text-decoration: none;
+  color: blue;
+  margin: auto;
+  text-align: center;
+}
+ol li {
+  margin-left: 40px;
+}
+td {
+  border: 3px solid black;
+  border-color: black;
+  margin: auto;
+  margin-left: 2px;
+}
+table {
+  margin: auto;
+}
+.sorry {
+  font-size: 20px;
+}

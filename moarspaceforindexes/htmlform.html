@@ -9,52 +9,69 @@
   </head>
   <body>
     <!-- stuff and things -->
-    <form action="success.html" method="get">
-      <div>
-        <label for="fullname">full name</label>
-        <input type="text" id="fullname" name="fullname" required />
-      </div>
+    <h1>Starting Lineup</h1>
+    <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+      <fieldset>
+        <legend>Status</legend>
+        <input type="radio" id="Draft" name="status" />
+        <label for="Draft">Draft</label>
+        <input type="radio" id="Final" name="status" checked />
+        <label for="Final">Final</label>
+      </fieldset>
 
-      <div>
-        <label for="gradyear">graduation year</label>
+      <label for="">Date: </label>
+      <select id="sport">
+        <option value="March 20">March 20</option>
+        <option value="March 24">March 24</option>
+        <option value="April 2">April 2</option>
+        <option value="April 4">April 4</option>
+        <option value="April 13">April 13</option>
+      </select>
+
+      <fieldset>
+        <legend>Players:</legend>
+
         <input
-          type="range"
-          id="gradyear"
-          name="gradyear"
-          min="2020"
-          max="2030"
-          value="2030"
+          type="checkbox"
+          id="Aarav Agarwal"
+          name="checky"
+          value="Aarav Agarwal"
         />
-      </div>
-      <div>
-        <label for="eyecolor">eye color</label>
+        <label for="Aarav Agarwal">Aarav Agarwal</label>
+
         <input
-          type="color"
-          id="eyecolor"
-          name="eyecolor"
-          
+          type="checkbox"
+          id="Ava Johnson"
+          name="checky"
+          value="Ava Johnson"
         />
-      </div>
-      <div>
-        <label for="cans">cans of spam in household</label>
-        <input type="number" id="cans" name="cans" step="7"/>
-      </div>
-      <div></div>
-        <label for="notes">notes</label> <br>
-        <textarea type="text" id="notes" name="notes" step="7">
-          </textarea>
-      </div>
-      <div>
-        <label for="bloodtype">bloodtype</label>
-        <select name="bloodtype" id="bloodtype">
-          <option value="A">A</option>
-          <option value="B">B</option>
-          <option value="AB">AB</option>
-          <option value="O">O</option>
-        </select>
-        
-        
-      </div>
+        <label for="Ava Johnson">Ava Johnson</label>
+
+        <input
+          type="checkbox"
+          id="Julio Ortiz"
+          name="checky"
+          value="Julio Ortiz"
+        />
+        <label for="Julio Ortiz">Julio Ortiz</label>
+
+        <input
+          type="checkbox"
+          id="Liam Rubio"
+          name="checky"
+          value="Liam Rubio"
+        />
+        <label for="Liam Rubio">Liam Rubio</label>
+        <input
+          type="checkbox"
+          id="Emma Witherspoon"
+          name="checky"
+          value="Emma Witherspoon"
+        />
+        <label for="Emma Witherspoon">Emma Witherspoon</label>
+      </fieldset>
+      <input type="submit" value="" />
+      <button type="submit">Submit</button>
     </form>
   </body>
 </html>
